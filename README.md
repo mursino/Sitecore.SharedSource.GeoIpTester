@@ -20,7 +20,7 @@ How to Configure & Use
 ======================
 - Open App_Config\Include\Sitecore.SharedSource.GeoIpTester.config
 - Define either a mock IP to fake with (<MockIp /> XML node) or a WAN IP lookup URL (<IpUrl /> XML node).
-- Load http://<host>/sitecore modules/web/geoip.aspx to see how Sitecore resolves your settings (public IP or fake IP)
+- Load http://hostname/sitecore modules/web/geoip.aspx to see how Sitecore resolves your settings (public IP or fake IP)
 - Run your CEP Geo IP rules with the configured test cases (mock IP or WAN IP). Note: after making a config change, you may need to load your page twice before the rule engines kicks in.
 
 How to Build
