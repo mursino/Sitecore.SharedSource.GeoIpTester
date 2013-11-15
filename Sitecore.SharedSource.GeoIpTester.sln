@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.SharedSource.GeoIpTester", "Sitecore.SharedSource.GeoIpTester\Sitecore.SharedSource.GeoIpTester.csproj", "{0CF2F812-F7B1-4A0D-B4E4-E20D322619FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{0668376B-C6F1-4A60-9C89-82A0B448B273}"
+	ProjectSection(SolutionItems) = preProject
+		Build\deploy-target.txt = Build\deploy-target.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF2F812-F7B1-4A0D-B4E4-E20D322619FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF2F812-F7B1-4A0D-B4E4-E20D322619FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF2F812-F7B1-4A0D-B4E4-E20D322619FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF2F812-F7B1-4A0D-B4E4-E20D322619FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
